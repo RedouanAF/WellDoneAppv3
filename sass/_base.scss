@@ -1,0 +1,57 @@
+//********************* Variables **********************//
+:root{
+    --color-white: #ffffff;
+    --color-blue: #0883ce;
+    --color-orange: #f8a557;
+    --color-black-medium: #263238;
+    --color-grey-light: #e8edf3;
+
+    --box-shadow-light: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+//********************* Fonts **********************//
+//Roboto :
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+//BebasNeue
+@font-face {
+    font-family: BebasNeue;
+    src: local(BebasNeue-Regular),
+        url(/../fonts/BebasNeue-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+//Karla
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+$maxwidth: 120rem;
+//********************* intialization *****************//
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; // 1rem = 10px //  ; 10px/16px = 62.5%
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    /* @media only screen and (max-width: 119.9rem){
+        min-width: 119.9rem;
+        //width: 100%;
+    } */
+
+    /* @media only screen and (max-width: 768){
+        min-width: 119.9rem;
+    } */
+}

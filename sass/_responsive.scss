@@ -1,0 +1,29 @@
+@mixin for-desktop-lg {
+    @media (max-width: 1199px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet-lg {
+    @media (max-width: 1000px) {
+      @content;
+    }
+  }
+  
+  @mixin for-tablet {
+    @media (max-width: 900px) {
+      @content;
+    }
+  }
+  
+  @mixin for-phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
+
+
+
+  
+
+  

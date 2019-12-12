@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    height: 12rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    //min-width: 136.6rem;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: var(--color-white);
+    @include for-tablet-lg{
+        box-shadow: none;
+    }
+}
+
+// white background 
+.block{
+    filter: opacity(0.3);
+}

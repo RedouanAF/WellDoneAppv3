@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42" height="33" viewBox="0 0 42 33">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#f8a557}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h42v33H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Grille_de_répétition_10" class="cls-2" data-name="Grille de répétition 10">
+        <g transform="translate(-296 -27)">
+            <rect id="Rectangle_150" width="42" height="5" class="cls-3" data-name="Rectangle 150" rx="2.5" transform="translate(296 27)"/>
+        </g>
+        <g transform="translate(-296 -15)">
+            <rect id="Rectangle_150-2" width="42" height="5" class="cls-3" data-name="Rectangle 150" rx="2.5" transform="translate(296 27)"/>
+        </g>
+        <g transform="translate(-296 -3)">
+            <rect id="Rectangle_150-3" width="42" height="5" class="cls-3" data-name="Rectangle 150" rx="2.5" transform="translate(296 27)"/>
+        </g>
+    </g>
+</svg>
